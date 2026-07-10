@@ -1,0 +1,12 @@
+name = "pig-pear-growth-plan"
+compatibility_date = "2026-07-10"
+pages_build_output_dir = "./dist"
+
+[vars]
+APP_TIMEZONE = "Asia/Shanghai"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pig-pear-growth-plan-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "./migrations"
