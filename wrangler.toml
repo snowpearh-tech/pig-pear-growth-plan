@@ -7,6 +7,6 @@ APP_TIMEZONE = "Asia/Shanghai"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "pig-pear-growth-plan-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_name = "pig-pear-growth-plan"
+database_id = "2da49655-271f-473c-a24e-592b410f5607"
 migrations_dir = "./migrations"
