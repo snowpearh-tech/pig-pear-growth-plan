@@ -213,5 +213,3 @@ wrangler d1 execute pig-pear-growth-plan-db --remote --file=./db/seed.sql
 这类错误更像当前运行环境限制，而不是项目代码语法错误。正常的本地终端或 Cloudflare Pages 构建环境应继续用 `npm run build` 验证。
 
 ## 下一步
-
-部署步骤请直接看 [DEPLOY.md](./DEPLOY.md)
