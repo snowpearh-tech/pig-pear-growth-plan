@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&family=Outfit:wght@400;500;600;700;800&family=ZCOOL+KuaiLe&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 24 100% 98%;
+    --foreground: 18 24% 24%;
+    --card: 0 0% 100%;
+    --card-foreground: 18 24% 24%;
+    --primary: 350 83% 78%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 42 100% 90%;
+    --secondary-foreground: 21 31% 28%;
+    --accent: 140 31% 86%;
+    --accent-foreground: 148 23% 28%;
+    --muted: 28 66% 95%;
+    --muted-foreground: 23 17% 45%;
+    --border: 18 45% 86%;
+    --input: 18 45% 90%;
+    --ring: 352 80% 75%;
+    color-scheme: light;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-background font-sans text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at top left, rgba(255, 211, 221, 0.78), transparent 38%),
+      radial-gradient(circle at 92% 12%, rgba(248, 217, 178, 0.62), transparent 30%),
+      radial-gradient(circle at 86% 78%, rgba(210, 236, 221, 0.55), transparent 28%),
+      linear-gradient(180deg, #fffaf5 0%, #fff6ef 54%, #fffdf9 100%);
+    background-attachment: fixed;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    background: rgba(252, 179, 192, 0.45);
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply border border-white/60 bg-white/75 shadow-soft backdrop-blur-xl;
+  }
+
+  .dotted-panel {
+    background-image:
+      radial-gradient(circle, rgba(250, 194, 205, 0.28) 1px, transparent 1px),
+      linear-gradient(135deg, rgba(255,255,255,0.55), rgba(255,255,255,0.2));
+    background-size: 18px 18px, auto;
+  }
+
+  .section-title {
+    @apply text-lg font-semibold tracking-tight text-foreground sm:text-xl;
+  }
+
+  .section-copy {
+    @apply text-sm leading-6 text-muted-foreground;
+  }
+}
