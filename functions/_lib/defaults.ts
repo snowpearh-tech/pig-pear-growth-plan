@@ -5,7 +5,7 @@ import type {
   RewardInput,
   RuleInput,
   SettingsInput,
-} from "@shared/contracts";
+} from "../../shared/contracts";
 
 export const DEFAULT_SETTINGS: SettingsInput = {
   appName: "猪梨成长计划 ❤️",

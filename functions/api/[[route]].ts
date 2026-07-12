@@ -9,7 +9,7 @@ import {
   ruleInputSchema,
   settingsInputSchema,
   levelInputSchema,
-} from "@shared/contracts";
+} from "../../shared/contracts";
 
 import {
   clearSessionCookie,

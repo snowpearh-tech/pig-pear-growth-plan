@@ -1,7 +1,7 @@
 import {
   APP_TIMEZONE,
   DEFAULT_HISTORY_LIMIT,
-} from "@shared/constants";
+} from "../../shared/constants";
 import type {
   Category,
   CategoryInput,
@@ -19,7 +19,7 @@ import type {
   StateResponse,
   Summary,
   Transaction,
-} from "@shared/contracts";
+} from "../../shared/contracts";
 
 import {
   DEFAULT_CATEGORIES,

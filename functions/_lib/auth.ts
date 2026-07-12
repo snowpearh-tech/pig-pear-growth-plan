@@ -1,7 +1,7 @@
 import {
   SESSION_COOKIE_NAME,
   SESSION_MAX_AGE,
-} from "@shared/constants";
+} from "../../shared/constants";
 
 import { ApiError } from "./http";
 import type { AppEnv } from "./types";
