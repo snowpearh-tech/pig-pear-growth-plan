@@ -1,6 +1,6 @@
 # 猪梨成长计划 ❤️
 
-一个可直接部署到 Cloudflare Pages 的情侣成长积分 Web App。  
+一个可直接部署到 Cloudflare Pages 的情侣成长积分 Web App。
 它不是 Demo，也不是示例片段，而是一套包含前端、Cloudflare Functions、D1 数据结构、管理员鉴权和后台内容管理的完整项目。
 
 ## 项目定位
