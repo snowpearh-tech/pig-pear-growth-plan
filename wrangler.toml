@@ -5,8 +5,9 @@ pages_build_output_dir = "./dist"
 [vars]
 APP_TIMEZONE = "Asia/Shanghai"
 
-[[d1_databases]]
-binding = "DB"
-database_name = "pig-pear-growth-plan"
-database_id = "2da49655-271f-473c-a24e-592b410f5607"
-migrations_dir = "./migrations"
+name = "pig-pear-growth-plan"
+compatibility_date = "2026-07-10"
+pages_build_output_dir = "./dist"
+
+[vars]
+APP_TIMEZONE = "Asia/Shanghai"
