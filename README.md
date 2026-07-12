@@ -214,4 +214,4 @@ wrangler d1 execute pig-pear-growth-plan-db --remote --file=./db/seed.sql
 
 ## 下一步
 
-部署步骤请直接看 [DEPLOY.md](./DEPLOY.md)。
+部署步骤请直接看 [DEPLOY.md](./DEPLOY.md)
